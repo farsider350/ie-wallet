@@ -1,19 +1,19 @@
-var CURRENT_COIN = 'SWIFT';
+var CURRENT_COIN = 'CASH';
 var PARAMS = {
-    'SWIFT': {
-        blockchain: 'SwiftCash',
-        coingecko: 'swiftcash',
+    'CASH': {
+        blockchain: 'CyberDollar',
+        coingecko: 'cyberdollar',
         coinjs: cc.bitcoin,
-        network: cc.bitcoin.networks.swiftcash,
+        network: cc.bitcoin.networks.cyberdollar,
         qrColor: '3875CE',
         minFee: 0.001,
         maxFee: 0.2,
         txFee: 0.002,
         precision: 2,
-        explorer: 'https://explorer.swiftcash.cc/',
-        donation: 'SXucSXaV5HURNyJUWnPrVFHTdRzoVff6gU',
-        unspentApi: 'https://explorer.swiftcash.cc/api/unspent/',
-        sendApi: 'https://explorer.swiftcash.cc/api/pushtx/',
+        explorer: 'http://207.148.87.64:8888/',
+        donation: 'C',
+        unspentApi: 'http://207.148.87.64:8888/unspent/',
+        sendApi: 'http://207.148.87.64:8888/api/pushtx/',
         sendTxHex: 'tx_hex',
         sendTxid1: 'txid',
         unspentTxid: 'txid',
